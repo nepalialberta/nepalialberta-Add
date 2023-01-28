@@ -11,6 +11,15 @@ public class Add {
      * @return the sum of a and b.
      */
     public int addNumbers(int a, int b){
-        return 0;
+
+
+        int sum = a+b;
+        System.out.println("The added value of a and b is: "+ sum );
+        return sum;
+        }
+
+        public static void main(String[] args){
+        Add outputAdd = new Add();
+        outputAdd.addNumbers(1, 20);
     }
 }
